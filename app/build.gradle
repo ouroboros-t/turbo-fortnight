@@ -1,11 +1,6 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-<<<<<<< HEAD
-    id 'kotlin-kapt'
-    id "dagger.hilt.android.plugin"
-=======
->>>>>>> b570882 (initial commit)
 }
 
 android {

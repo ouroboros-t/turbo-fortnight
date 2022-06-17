@@ -105,3 +105,12 @@ fun LightTextField(){
     }
 }
 
+@Preview("Dark Input Field", showBackground =  true)
+@Composable
+fun DarkTextField(){
+    Column{
+        Text("Password (Required", fontSize = 18.sp)
+        KTextField(value = "yo", onValueChanged ={} , resetField = {}, placeholder = {})
+    }
+}
+
